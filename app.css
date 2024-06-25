@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card > div {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 30px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 3px;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px; 
+    
+}
+form{
+    display: flex;
+    width: 44%;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 40vh;
+    padding: 12px;
+    gap: 22px;
+}
+button{
+
+       width: 72%;
+    height: 28.5px;
+    background-color: rgb(2, 129, 68);
+    border-radius: 1px;
+    padding: 10px;
+    border: 1px solid rgb(0, 152, 107);
+}
+button>b{
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25.6px;
+    color: rgb(255, 255, 255);
+}
+input {
+    display: flex;
+    align-items: center;
+    width: 72%;
+    height: 28.5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1px;
+    padding: 10px;
+    border: 1px solid rgb(0, 155, 109);
+    outline: none;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25.6px;
+    color: rgb(0, 136, 86);
+    
+}
+
+.card > div > p {
+    margin-left: 12px;
+}
+
+img {
+    width: 39px;
+    height: 24px;
+}
+
+
+.id {
+    margin-right: -280px;
+}
+
+.btny {
+    background-color: #5d5d5d;
+    border: none;
+    border-radius: 2px;
+    position: absolute;
+    right: 41.5%;
+}
+
+.btny2 {
+    background-color: #bc0000;
+    border: none;
+    border-radius: 2px;
+    margin-right: -10px;
+    margin-left: -98px;
+
+
+}
+
+button{
+    width: 54px;
+    height: 50px;
+    border: none;
+
+}
+h1{
+    margin-left: -300px;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 650;
+    line-height: 25.6px;
+    color: rgb(0, 162, 108);
+    margin-bottom: 10px;
+    margin-right: -250px;
+    
+}
+form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 18px 0px rgb(208, 208, 208);
+    border-radius: 5px;
+    padding: 24px;
+    margin-left: -50px;
+
+}
+.card{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+
+    
+    padding: 24px;
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to top, #005d38, #3b9f77);
+    position: relative;
+
+}
+p{
+    
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 25.6px;
+color: rgb(0, 0, 0);
+
+}
+::placeholder{
+    
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 650;
+    line-height: 25.6px;
+    color: rgb(0, 122, 75);
+    
+    }
+    .failed{
+        
+    
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 650;
+        line-height: 25.6px;
+        color: rgb(255, 0, 0);
+        margin-top: -20px;
+    }

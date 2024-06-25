@@ -1,0 +1,37 @@
+.card{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(227, 227, 227);
+    box-shadow: 1px 1px 12px 0.5px rgb(220, 220, 220);
+    align-items: center;
+    margin-left: 100px;
+}
+.ah{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 33px;
+    margin-bottom: -70px;
+}
+.ah:hover{
+ color: rgb(59, 59, 59);
+}
+h1{
+    margin: 50px;
+}
+.asos{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.card:hover{
+    display: flex;
+    width: 505px;
+    height: 102px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 1px 1px 18px 1px rgb(220, 220, 220);
+    align-items: center;
+    margin-left: 100px;
+    transition: 0.2s;
+}

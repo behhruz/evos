@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="style.css">
+</head>
+<style>
+    
+input {
+    border-bottom: 2px solid rgba(0, 86, 59, 0.479);
+    border-left: 2px solid rgba(0, 78, 53, 0.527);
+    border-top:none ;
+    border-right:none ;
+
+    background: none;
+    color: rgb(0, 128, 73);
+    outline: none;
+    width: 200px;
+    padding: 5px;
+    font-size: 1rem;
+    margin-right: 5px;
+    margin-top: 22px;
+}
+::placeholder{
+    color: rgb(0, 128, 73);
+
+}
+button {
+border: none;
+ 
+background-color: rgb(0, 120, 50);
+    
+    color: rgb(255, 255, 255);
+    outline: none;
+    width: 90px;
+    padding: 7px;
+    font-size: 1rem;
+    margin-right: 5px;
+}
+button:hover{
+    background-color: rgb(239, 211, 0);
+    transition: 0.5s;
+}
+</style>
+<body >
+    <a style="text-decoration: none; font-size: 22px; margin-left: 46px;" href="./index.html"><b >menu</b></a>
+    <form action="">
+        <input style="margin-left: 46px;" class="url" type="text" placeholder="url..">
+        <input class="ismi" type="text" placeholder="nomi..">
+        <input class="odami" type="text" placeholder="tarif..">
+        <input class="regioni" type="text" placeholder="narx..">
+  
+        <button class="tb" type="button">+add</button>
+  
+    </form>
+    <div class="wrapper"></div>
+    <script src="./admin.js"></script>
+</body>
+</html>

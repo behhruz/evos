@@ -1,0 +1,53 @@
+div{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+.malumot{
+    display: flex;
+    flex-direction: column;
+width: 100%;
+padding: 18px;
+height: 65vh;
+
+}
+.dd{
+    display: flex;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 1px 1px 12px 0.5px rgb(220, 220, 220);
+width: 85%;
+padding: 18px;
+height: 70vh;
+align-items: center;
+margin-top: 100px;
+
+}
+body{
+    width: 100%;
+    margin: 0;
+    display: flex;
+  
+    justify-content: center;
+    height: 100vh;
+    
+}
+*{
+    padding: 0;
+}
+p{
+    color: rgb(88, 88, 88);
+   
+}
+.map{
+    margin-left: -100px;
+}
+.ah1{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-top: 22px;
+}
+.ah1:hover{
+ color: rgb(73, 73, 73);
+}
